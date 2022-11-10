@@ -1,7 +1,7 @@
 function main(){
     let confirm=document.getElementById("resultc").innerHTML;
-    if(confirm=="Stop You Are Unlucky..."){
-        alert("GAME OVER! Please restart Again");
+    if(confirm=="Stop You Are Unlucky..." || confirm=="You Are Won !!!"){
+        alert("Please restart Again");
     }else{
     let x;
     do{
